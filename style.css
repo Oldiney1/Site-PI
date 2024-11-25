@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background-color: rgb(155, 205, 79);
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+
+.linknav{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.logo{
+    font-size: 30px;
+    margin-top: 5px;
+    font-family: serif;
+}
+
+.quem{
+    margin-top: 10px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(Images/man-touching-his-phone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.texto{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 15%;
+}
+
+iframe{
+    margin-top: 18%;
+    margin-left: 50px;
+}
+
+.texto2{
+    padding: 20px;
+}
+
+p{
+    text-indent: 10px;
+}
+
+a{
+    text-decoration: none;
+}
